@@ -24,7 +24,13 @@ depends: [
   "fmt"
   "astring"
   "inotify"      {os = "linux"}
-  "osx-fsevents" {os = "macos" & >= "0.2.0"}
+  "fsevents-lwt" {os = "macos" & >= "0.2.0"}
+]
+
+pin-depends: [
+  ["cf.dev" "git+https://github.com/patricoferris/ocaml-cf#retain-array-values"]
+  ["cf-lwt.dev" "git+https://github.com/patricoferris/ocaml-cf#retain-array-values"]
+  ["fsevents-lwt.dev" "git+https://github.com/mirage/ocaml-fsevents"]
 ]
 
 synopsis: "Portable Irmin watch backends using FSevents or Inotify"
