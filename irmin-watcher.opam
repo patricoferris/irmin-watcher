@@ -30,6 +30,7 @@ depends: [
 pin-depends: [
   ["cf.dev" "git+https://github.com/patricoferris/ocaml-cf#retain-array-values"]
   ["cf-lwt.dev" "git+https://github.com/patricoferris/ocaml-cf#retain-array-values"]
+  ["fsevents.dev" "git+https://github.com/mirage/ocaml-fsevents"]
   ["fsevents-lwt.dev" "git+https://github.com/mirage/ocaml-fsevents"]
 ]
 
