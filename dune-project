@@ -26,6 +26,8 @@ irmin-watcher is distributed under the ISC license.
    (inotify (= :os "linux"))
    (cf-lwt (>="0.4"))
    lwt
+   eio
+   lwt_eio
    logs
    fmt
    astring
